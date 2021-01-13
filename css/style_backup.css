@@ -1,0 +1,116 @@
+body{
+    margin:0px !important;
+    padding:0px !important;
+}
+
+.navbar-brand {
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+.nav-link {
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 990px) {
+    .container{
+        padding-right:15px !important;
+        padding-left:15px !important;
+    }
+}
+
+
+.navbar{
+    padding-top:0px;
+    padding-bottom: 0px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.welcome-container{
+    height: 100vh;
+    background-color: #5d21d2;
+}
+
+#hero{
+    height: 95vh;
+    background-color: #5d21d2;
+    color: #fff;
+}
+
+.mainBg h1 {
+    font-size: 80px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    line-height: 80px;
+}
+
+.subTxt {
+    margin: 0 0 30px 0;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+}
+
+.ctaBtn {
+    padding: 15px 100px 15px 10px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+.ctaBtn:hover{
+    background-color:black;
+    color:white;
+}
+
+#features .card {
+    height: 250px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+#features .header {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+#features .icon {
+    height: 50px;
+    width: 50px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+#features {
+    height: 100vh;
+}
